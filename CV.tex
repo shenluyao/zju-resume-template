@@ -100,58 +100,64 @@
 
 \centerline{\normalsize{\faPhone\ 152-5753-5173 \quad \faEnvelopeO\ \href{mailto:3250100324@zju.edu.cn}{3250100324@zju.edu.cn}}} 
 
-\centerline{\normalsize{\faGithubSquare\ \href{https://github.com/shenluyao}{https://github.com/shenluyao} \quad \faRssSquare\ \href{https://shenluyao.github.io/}{https://shenluyao.github.io}}} 
+\centerline{\normalsize{\faGithubSquare\ \href{https://github.com/shenluyao}{https://github.com/shenluyao} \quad \faRssSquare\ \href{https://sly0413.vercel.app/}{https://sly0413.vercel.app/}}} 
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
-\textbf{浙江大学} \hfill 2025.9 -- 至今\\[0.5em] % 标题和正文间加一点距离
+\textbf{浙江大学} \hfill 2025.9 -- 至今\\[0.3em] % 标题和正文间加一点距离
 工业设计\quad 大一 
 \begin{itemize}[nosep]
-    \item 相关课程成绩：《线性代数甲》94/4.8、《C程序设计基础及实验》92/4.8
+    \item 相关课程及成绩：《线性代数（甲）》 94/4.8、《C程序设计基础及实验》 92/4.8
 \end{itemize}
-\textbf{浙江省春晖中学} \hfill 2022.9 -- 2025.6\\[0.5em] % 标题和正文间加一点距离
+\textbf{浙江省春晖中学} \hfill 2022.9 -- 2025.7\\[-1.8em]
 
 \section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目经历}
 
 % --- 第一个项目 ---
 % 将标题行末尾的 \\ 替换为 \titlebreak 命令
-\textbf{98烂坑风控与可视化作战平台} \hfill 2024.08 -- 至今 \titlebreak
-项目描述：为维护cc98社区的讨论纯度、净化“心灵之约”版块风气，本项目旨在对“烂坑”进行科学、严谨的量化分析，并引入\textbf{大语言模型(LLM)}对烂坑帖进行\textbf{自动化情感极性与“离谱指数”标注}。
+\textbf{搭建个人学习网站} \hfill 2026.02 \titlebreak
+项目描述：用于管理个人笔记、记录每日学习任务，并对页面访问人次进行统计。
 % 在 itemize 的选项中，使用 topsep=\intraProjectListTopSep 来控制上边距
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{数据与后端}：运用 \textbf{Go} 语言及 \textbf{GORM} 框架，实现对全站“烂坑”帖的7x24小时全天候\textbf{抓取}与\textbf{入库}(MySQL)。
-    \item \textbf{可视化前端}：采用原生 \textbf{HTML/CSS/JS} 构建了“烂坑”实时监控\textbf{作战大屏}。实现了坑主成分分析、挖坑热力图、年度烂坑王榜单等\textbf{可视化图表}，并通过 \textbf{AJAX} 异步刷新，确保数据洞察的实时性。
-    \item \textbf{核心产出}：全面掌握了从\textbf{数据采集、清洗、LLM标注到可视化分析}的“反烂坑”全链路技术。
+    \item \textbf{技术栈}：Next.js 16, React 10, TypeScript, Tailwind CSS, Supabase,Vercel
 \end{itemize}
 
 % 使用 \projectsep 命令来分隔两个项目
 \projectsep
 
 % --- 第二个项目 ---
-\textbf{AIGC驱动的超进化自动挖坑机 (Agent)} \hfill 2025.02 -- 至今 \titlebreak
-项目描述：为探索心灵版规的边界，以及测试版主锁沉反应速度的极限，本项目基于\textbf{多智能体协作(MCP)与LLM}技术，开发了一款能\textbf{自主“挖坑”与“互坑”}的AI Agent。
+\textbf{离线版WikiRacer} \hfill 2026.01 \titlebreak
+项目描述：来自UCB CS106L的project,给定两个维基词条，在维基百科链接构成的词网中自动求解从起点到终点的最短路径。采用离线建图：先解析维基数据构建邻接表并持久化到本地，查询时在内存中运行 BFS 得到最短路径与步数。
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{并发与调度}：后端采用 \textbf{Go} 语言，充分利用 \textbf{Goroutine} 和 \textbf{Channel} 的高并发模型，模拟\textbf{用户并发在线}，执行定时挖坑，确保挖坑行动的\textbf{隐蔽性}与\textbf{高效性}。
-    \item \textbf{实时监控与响应}：运用 \textbf{WebSocket} 协议实现了对目标帖子的\textbf{实时监听与交互}。确保在烂坑被识破的第一时间，Agent能光速完成\textbf{“lktp”}或\textbf{反向钓鱼}操作，展现出极高的AI博弈能力。
-    \item \textbf{可视化GUI}：前端使用 \textbf{React} 框架构建了\textbf{后台管理的可视化面板 (Admin Panel)}。可一键下达挖坑指令、动态调整Agent的\textbf{指令}、并实时监控数据。
+    \item \textbf{技术栈}：C++, QtCreator, CMake, Wikipedia REST API，邻接表 + BFS
+\end{itemize}
+
+\projectsep
+
+% --- 第二个项目 ---
+\textbf{AnyCar-四路红外小车循迹项目} \hfill 2025.11-2025.12 \titlebreak
+项目描述：基于Arduino平台，设计并实现了一款四路红外小车循迹系统。支持PID巡线、直角弯识别与终点黑框检测，实现自动寻迹与停车。
+\begin{itemize}[nosep, topsep=\intraProjectListTopSep]
+    \item \textbf{技术栈}：Arduino，C语言，L298N双电机驱动，数字I/O与PWM调速，串口调试
 \end{itemize}
 
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
 \begin{itemize}[nosep]
-    \item \textbf{编程语言：} \textbf{Go}, Python, C++，C语言
-    \item \textbf{开发工具：} Git, VS Code, Pygame, PyCharm
+    \item \textbf{编程语言：} C语言, Python, C++
+    \item \textbf{开发工具：} Git, Visual Studio Code, QtCreator, PyCharm
     \item \textbf{操作系统：} Windows
 \end{itemize}
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 英语水平}
 \begin{itemize}
-    \item 大学英语Ⅲ \hfill 90/4.5
-    \item CET-4 \hfill 
-    \item 英语高考 \hfill 140
+    \item 《大学英语 III》 90/4.5
+    \item 浙江英语高考 140
     
 \end{itemize}
     
-\section{\makebox[\widthof{\faInfo}][c]{\color{CVBlue}\faInfo}\ 学生工作与社团经历}
+\section{\makebox[\widthof{\faInfo}][c]{\color{CVBlue}\faInfo}\ 学生工作及社团经历}
 \begin{itemize}[parsep=0.5ex]
-    \item \textbf{云峰分团委：} 实践部干事--参与组织云峰暑期结项答辩&&云峰十佳答辩
-    \item \textbf{机器人协会：} 组织部干事--参与组织湖州开放日活动；参加内训、小车巡线比赛
+    \item \textbf{云峰分团委：} 担任分团委实践部干事，参与组织暑期社会实践结项答辩、云峰十佳答辩
+    \item \textbf{机器人协会：} 担任协会组织部干事，参与组织湖州开放日活动；参与内训、巡线小车项目开发
 \end{itemize}
 \end{document}
+
+
