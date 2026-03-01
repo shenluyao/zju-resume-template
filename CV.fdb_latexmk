@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1772272211 "/workspaces/zju-resume-template/CV.tex" "CV.pdf" "CV" 1772272212
+["pdflatex"] 1772365566 "/workspaces/zju-resume-template/CV.tex" "CV.pdf" "CV" 1772365567
   "/etc/texmf/web2c/texmf.cnf" 1772110653 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -142,11 +142,11 @@
   "/usr/share/texmf/tex/latex/CJK/CJKfntef.sty" 1485503905 12851 a92a26031294f6fa88114f524b3b794a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1772110681 3721395 981777f1fb0f038f7dbff98a51a31dd4 ""
-  "/workspaces/zju-resume-template/CV.tex" 1772272208 6458 a9ee34a60333bba0e84e14a25c84be0c ""
+  "/workspaces/zju-resume-template/CV.tex" 1772365563 6648 dc40d26672145faa9f317b2b54617923 ""
   "CV-W.jpg" 1772110363 1745492 1d6705ff327e67ddd620e8b137547065 ""
-  "CV.aux" 1772272212 1760 7c4bfdfb6b6147faa59d63a0a9160ace "pdflatex"
-  "CV.out" 1772272212 802 01e3f08c69d5b67a3f318397eb81c383 "pdflatex"
-  "CV.tex" 1772272208 6458 a9ee34a60333bba0e84e14a25c84be0c ""
+  "CV.aux" 1772365566 1760 7c4bfdfb6b6147faa59d63a0a9160ace "pdflatex"
+  "CV.out" 1772365566 802 01e3f08c69d5b67a3f318397eb81c383 "pdflatex"
+  "CV.tex" 1772365563 6648 dc40d26672145faa9f317b2b54617923 ""
   "fontawesomesymbols-generic.tex" 1772110363 33234 a3a3e12d9315f667a3e24bd6b3d6058b ""
   "fontawesomesymbols-xeluatex.tex" 1772110363 45782 7166bfdff927bad3f81e302543d76c90 ""
   "zju.png" 1772110363 67019 1d77ee3a8e3cdd4ac1b27afd552f5f3b ""
